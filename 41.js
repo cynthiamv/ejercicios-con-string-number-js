@@ -43,7 +43,7 @@ console.log(texto.concat(metodo));
 
 texto = "HOLA MUNDO";
 
-console.log(texto.toLocaleLowerCase());
+console.log(texto.toLowerCase());
 
 
 
@@ -53,7 +53,7 @@ console.log(texto.toLocaleLowerCase());
 
 texto = "hola mundo";
 
-console.log(texto.toLocaleUpperCase());
+console.log(texto.toUpperCase());
 
 
 
@@ -74,7 +74,7 @@ let tercerLetra = texto.charAt(9);
 
 let resultado = primerLetra.concat(segundaLetra.concat(tercerLetra));
 
-console.log(resultado.toLocaleUpperCase());
+console.log(resultado.toUpperCase());
 
 
 
